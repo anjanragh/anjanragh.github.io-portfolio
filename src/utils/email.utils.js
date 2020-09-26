@@ -1,4 +1,6 @@
 import emailjs from "emailjs-com";
+import { init } from 'emailjs-com';
+init("user_UlGyHxSEcHEqc8VPJ464R");
 
 const TEMPLATE_ID = "1zUFH3LfMsn6V4FvY8EO";
 
@@ -15,6 +17,7 @@ export const sendEmail = async (params) => {
             "default_service",
             TEMPLATE_ID,
             params,
+            process.env.REACT_APP_USER_IDm,
             "user_UlGyHxSEcHEqc8VPJ464R"
         );
         console.log("Email send sucessfully", response);
