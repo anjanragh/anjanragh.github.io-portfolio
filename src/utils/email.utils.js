@@ -12,13 +12,13 @@ export const validateEmail = (email) => {
 
 export const sendEmail = async (params) => {
     let response, errorMessage;
+    console.log("These are the paramas : ", JSON.stringify(params, 4, 2));
     try {
         response = await emailjs.send(
             "default_service",
             TEMPLATE_ID,
             params,
-            process.env.REACT_APP_USER_IDm,
-            "user_UlGyHxSEcHEqc8VPJ464R"
+            process.env.REACT_APP_USER_IDm
         );
         console.log("Email send sucessfully", response);
     } catch (error) {
