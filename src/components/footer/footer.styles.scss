@@ -1,0 +1,33 @@
+@import "../../styles/main";
+
+footer {
+  padding: 4rem 0rem;
+  background: rgba($trial-gray, 1);
+  margin-top: 5rem;
+}
+.footer {
+  text-align: center;
+  font-family: "Space Mono", monospace, sans-serif;
+
+  &__line {
+    font-size: 2rem;
+    word-spacing: 3px;
+    color: $dark-blue;
+    span {
+      color: red;
+    }
+    @media only screen and(max-width:500px) {
+      font-size: 1.5rem;
+      word-spacing: 0px;
+    }
+    @media only screen and(max-width:375px) {
+      font-size: 1.35rem;
+      word-spacing: 0px;
+    }
+  }
+
+  .name {
+    text-decoration: none;
+    color: $dark-red;
+  }
+}
