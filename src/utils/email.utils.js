@@ -2,7 +2,7 @@ import emailjs from "emailjs-com";
 import { init } from 'emailjs-com';
 init("user_UlGyHxSEcHEqc8VPJ464R");
 
-const TEMPLATE_ID = "1zUFH3LfMsn6V4FvY8EO";
+const TEMPLATE_ID = "template_bxvoz6t";
 
 export const validateEmail = (email) => {
     const emailRegex = /^(([^<>()[\]\\.,;:\s@]+(\.[^<>()[\]\\.,;:\s@]+)*)|(.+))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
