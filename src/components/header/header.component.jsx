@@ -16,8 +16,8 @@ const Header = () => {
         </h1>
         <p className="tagline">
           A Web Developer with a focus on building fast, robust and optimized
-          UI with a beautifully orchestrated backend. I believe in developing Interfaces which bring a
-          smile.
+          UI with a beautifully orchestrated backend. I believe in developing Interfaces which brings a
+          smile to your face (like this one. Hopefully!).
         </p>
       </div>
 
