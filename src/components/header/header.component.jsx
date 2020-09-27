@@ -12,11 +12,11 @@ const Header = () => {
       <div className="header__content">
         <h1 className="main-heading">
           Hi!
-          <span>I'm Anjan.</span>
+          <span>I'm Anjan!</span>
         </h1>
         <p className="tagline">
           A Web Developer with a focus on building fast, robust and optimized
-          UI with a beautifully orchestrated backend. I believe in developing Interfaces which brings a
+          UI with a beautifully orchestrated backend. I believe in developing UIs which bring a
           smile to your face (like this one. Hopefully!).
         </p>
       </div>
